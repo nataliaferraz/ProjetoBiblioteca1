@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @model.Entity
-class UsuarioModel {
+public class UsuarioModel {
     private String nome;
     private String sexo;
     private String celular;
